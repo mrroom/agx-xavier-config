@@ -9,3 +9,5 @@
   Adapter: Virtual device
   temp1:        +33.6°C 
 ~~~
+
+- [우분투 NVMe M.2 ssd 사용하기](https://promobile.tistory.com/371)
