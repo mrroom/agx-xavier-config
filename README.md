@@ -13,3 +13,4 @@
 - [우분투 NVMe M.2 ssd 사용하기](https://promobile.tistory.com/371)
 - [ASUS공유기 포트포워딩](https://little-kid.tistory.com/8)
 - [ASUS공유기 SSH활성화](https://lightinglife.tistory.com/144)
+- server 123.248.6.100, 80, 8022
