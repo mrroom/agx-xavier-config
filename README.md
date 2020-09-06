@@ -1,8 +1,15 @@
 # agx-xavier-config
 
 - [Fan Mode Control](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%2520Linux%2520Driver%2520Package%2520Development%2520Guide%2Fpower_management_jetson_xavier.html%23wwpID0E03M0HA)
-- FAN 온도 체크
+- FAN 모드 및 온도 체크
 ~~~
+  # FAN 모드 조회
+  sudo /usr/sbin/nvpmodel -q
+  
+  # FAN 모드 변경
+  sudo /usr/sbin/nvpmodel -d <fan_mode>(quiet or cool)
+  
+  # 
   sudo apt-get install lm-sensors
   sudo sensors
   thermal-fan-est-virtual-0
