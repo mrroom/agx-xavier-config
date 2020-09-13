@@ -21,3 +21,21 @@
 - [ASUS공유기 포트포워딩](https://little-kid.tistory.com/8)
 - [ASUS공유기 SSH활성화](https://lightinglife.tistory.com/144)
 - server 123.248.6.100, 80, 8022
+
+# 미니콘다 설치
+- [c4aarch64_installer-1.0.0-Linux-aarch64](https://qiita.com/PINTO/items/d2054b8ebcbc6c577316)
+su -  
+wget https://github.com/jjhelmus/conda4aarch64/releases/download/1.0.0/c4aarch64_installer-1.0.0-Linux-aarch64.sh => 미니콘다3 설치
+bash c4aarch64_installer-1.0.0-Linux-aarch64.sh => /usr/local/miniconda3/에 설치됨
+source ~/.bashrc => 미니콘다 path 등록
+conda list => 미 확인시는 nano ~/.bashrc 에서 export PATH="/usr/local/miniconda3/bin:$PATH" 넣어 저장 후 source ~/.bashrc 다시 실행
+conda config --set auto_activate_base false => (base)표시 안하기
+conda create --name my_env python=2 => 가상환경(my_env) 생성
+conda init bash
+source ~/.bashrc
+conda env list => 가상환경 목록 보기
+conda activate my_env => 가상환경 진입
+conda deactivate => 가상환경 나오기
+conda env remove --name my_env => 가상환경(my_env) 삭제
+conda env export --name my_env > environment.yml => 가상환경(my_env) 추출하여 환경을 environment.yml 파일로 저장
+conda env create -f ./environment.yml => 저장된 환경파일을 가지고 가상환경 만들기
