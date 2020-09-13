@@ -24,7 +24,8 @@
 
 # 미니콘다 설치
 - [c4aarch64_installer-1.0.0-Linux-aarch64](https://qiita.com/PINTO/items/d2054b8ebcbc6c577316)
-su -  
+~~~
+su -
 wget https://github.com/jjhelmus/conda4aarch64/releases/download/1.0.0/c4aarch64_installer-1.0.0-Linux-aarch64.sh => 미니콘다3 설치
 bash c4aarch64_installer-1.0.0-Linux-aarch64.sh => /usr/local/miniconda3/에 설치됨
 source ~/.bashrc => 미니콘다 path 등록
@@ -39,3 +40,5 @@ conda deactivate => 가상환경 나오기
 conda env remove --name my_env => 가상환경(my_env) 삭제
 conda env export --name my_env > environment.yml => 가상환경(my_env) 추출하여 환경을 environment.yml 파일로 저장
 conda env create -f ./environment.yml => 저장된 환경파일을 가지고 가상환경 만들기
+~~~
+
