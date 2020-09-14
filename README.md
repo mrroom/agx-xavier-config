@@ -22,6 +22,9 @@
 - [ASUS공유기 SSH활성화](https://lightinglife.tistory.com/144)
 - server 123.248.6.100, 80, 8022
 
+# pip3 및 tensorflow 설치
+- [Installing TensorFlow For Jetson Platform](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html#benefits)
+
 # 미니콘다 설치 => agx xavier 에서 공식 지원하지 않음
 - [Anaconda doesn’t support aarch64 architecture so you are not able to install it on Jetson Xavie](https://forums.developer.nvidia.com/t/is-it-possible-to-install-anaconda-on-xavier-at-all/83560)
 - [c4aarch64_installer-1.0.0-Linux-aarch64](https://qiita.com/PINTO/items/d2054b8ebcbc6c577316)
