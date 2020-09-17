@@ -28,4 +28,5 @@
 # ~~미니콘다 설치~~ => agx xavier 에서 공식 지원하지 않음 : Miniforge 사용
 - [Python 딥러닝 환경 구성하기](https://kynk94.github.io/devlog/post/jetson-nano-conda)
 - [Miniforge](https://github.com/conda-forge/miniforge)
+- [[Jupyter Lab & Notebook] 설치, 실행 및 원격 접속 방법](https://jm4488.tistory.com/46)
 
