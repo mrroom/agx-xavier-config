@@ -33,3 +33,6 @@
 # pytorch 설치
 - [Jetson AGX Xavier Development Kit Setup for Deep Learning (Tensorflow, PyTorch and Jupyter Lab) with JetPack 4.x SDK](https://rahulvishwakarma.wordpress.com/2020/06/23/jetson-agx-xavier-development-kit-setup-for-deep-learning-tensorflow-pytorch-and-jupyter-lab-with-jetpack-4-x-sdk/)
 - [[Jetson AGX Xavier] pytorch, tensorflow, pillow, scipy 등 설치](https://m.blog.naver.com/tbvj5914/221631290399)
+- [Installing MindsDB](https://docs.mindsdb.com/Installing/)
+- [From sources:tokenizers](https://github.com/huggingface/tokenizers/tree/master/bindings/python)
+
