@@ -35,4 +35,6 @@
 - [[Jetson AGX Xavier] pytorch, tensorflow, pillow, scipy 등 설치](https://m.blog.naver.com/tbvj5914/221631290399)
 - [Installing MindsDB](https://docs.mindsdb.com/Installing/)
 - [From sources:tokenizers](https://github.com/huggingface/tokenizers/tree/master/bindings/python)
+- [파이토치(pytorch) 시작하기/파이토치 튜토리얼](https://m.blog.naver.com/keum_zz6/221316995599)
+- [예제로 배우는 파이토치(PYTORCH)](https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html)
 
