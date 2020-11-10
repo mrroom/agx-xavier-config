@@ -40,4 +40,5 @@
 - [모두를 위한 딥러닝 시즌2 !!](https://deeplearningzerotoall.github.io/season2/lec_pytorch.html)
 - [예제로 배우는 파이토치(PYTORCH)](https://tutorials.pytorch.kr/beginner/pytorch_with_examples.html)
 - [[PyTorch로 시작하는 딥러닝 기초] 05. Logistic Regression](https://wegonnamakeit.tistory.com/44)
+- [REALTIME MOBILE OBJECT DETECTOR IN XAMARIN.ANDROID](https://geeks.ms/xamarinteam/2019/07/04/realtime-mobile-object-detector-in-xamarin-android/)
 
