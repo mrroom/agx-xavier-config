@@ -1,5 +1,6 @@
 # agx-xavier-config
 
+- [Install Jetson Software with SDK Manager](https://docs.nvidia.com/sdk-manager/install-with-sdkm-jetson/index.html)
 - [Fan Mode Control](https://docs.nvidia.com/jetson/l4t/index.html#page/Tegra%2520Linux%2520Driver%2520Package%2520Development%2520Guide%2Fpower_management_jetson_xavier.html%23wwpID0E03M0HA)
 - FAN 모드 및 온도 체크
 ~~~
