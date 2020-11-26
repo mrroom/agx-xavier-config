@@ -22,6 +22,17 @@
 - [ASUS공유기 포트포워딩](https://little-kid.tistory.com/8)
 - [ASUS공유기 SSH활성화](https://lightinglife.tistory.com/144)
 
+# Shellinabox 설치
+- sudo apt-get install shellinabox
+- nano /etc/default/shellinabox
+~~~
+SHELLINABOX_PORT=8080
+SHELLINABOX_ARGS="--disable-ssl"
+~~~
+- systemctl stop shellinabox
+- systemctl start shellinabox
+- sudo netstat -nap | grep shellinabox
+
 # pip3 및 tensorflow 설치
 - [Installing TensorFlow For Jetson Platform](https://docs.nvidia.com/deeplearning/frameworks/install-tf-jetson-platform/index.html#benefits)
 - [Ubuntu에서 Python 버전을 변경하는 방법](https://codechacha.com/ko/change-python-version/)
